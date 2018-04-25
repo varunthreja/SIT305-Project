@@ -1,0 +1,27 @@
+CHANGELOG
+
+WEEK 3
+
+// [Sharjeel] and [Varun] made some basic design on paper according to the project proposal made by [Varun]. Story line was discussed and then we planned to chose android as our Preferred platform for the game.
+// [Varun] did some research on how to build the creatures in our game and other game elements.
+// [Sharjeel] tried to implement the basic design and started working on Android Studio.
+// Then we put the project on GitHub and continued working further.
+
+WEEK 4
+
+// [Sharjeel] and [Varun] started together on this project while working in university and after few days of working we came across so many errors in our code and we figured out some of them.
+// Despite of the errors we continued working but at this stage we were finding it hard to continue working on this project (the one mentioned in the proposal by Varun).
+
+WEEK 5
+
+// We Dropped the Plan of working on the old project and planned to chose a new project and built it entirely from starting.
+// [Varun] came up with the idea of using Unity instead of Android Studio for game development.
+
+Week 6
+
+// [Sharjeel] found some free assets on unity’s site which we can use in our project.
+					*****************************************************************
+// [Varun] and [Sharjeel] started working on the new project for week 6.
+// [Varun] and [Sharjeel] planned the design for the new Project 'Zombie Shooter'.
+
+ 
