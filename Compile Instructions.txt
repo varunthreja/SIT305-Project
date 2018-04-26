@@ -1,6 +1,13 @@
-1. Open the project in unity.
-2. Compile and Build the project by Clicking on the run button from options on the top menu.
-3. Select Android under Platform.
-4. And select your plug-in device. 
-5. Then click on build and run button.
-6. When prompted for a name for the .apk file enter in the Zombie Shooter.
+For PC/Window/stand-alone device
+1. Open project in unity editor. 
+2. Hit play button on the top bar. 
+3. Start playing game. 
+For Android/ play in Android phone. 
+1.Open project in unity editor. 
+2. Switch platform to android in build settings. 
+File->buld setting (click on Android and hit switch platform). 
+3. Create a build.
+File->Build setting->Build 
+This will create APK. 
+4. Transfer apk to your Android phone and install it. 
+5. Open/Play app.
