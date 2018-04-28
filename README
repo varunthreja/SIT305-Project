@@ -1,4 +1,36 @@
 1. VARUN THREJA, SID: - 216031343
 2. SHARJEEL IFTIKHAR, SID: - 215328289
 
+Story of the Game
+Title : Zombie War
+
+Game Genre : FPS (First Person) Shooting
+
+Game Overview / Main Story :
+Main theme of game is to kill zombies. Our town has been destroyed by zombies. They have entered in our city and infected very person. Most of inhabitants have turned to zombies. We are the only one survival and also the only person left alive of a special team of saviours of the town.
+We are using a FPS Player having multiple guns to kill zombies.
+We have to kill zombies by shooting. We will use health factor to show the health of the user. Zombies are divided in multiple levels and are on multiple locations with in the game.
+We are using mini map to locate zombies in environment. User will follow mini map to find zombies. 
+Zombies are in different locations in town like in open area , in building , in houses , in hostel etc.
+Wave of zombies increases by each level. Suppose there are three Zombies in first level then there will be 4 or 5 in next level and so on.
+
+We are giving limited ammo and limited health to user. However we will put ammo and health on multiple places in environment for recovery of use (To make game more challenging and interesting).
+
+Game Scenes :
+There will be 4 scenes in game
+
+1. Main Menu
+Representing Game name and some basic setting for user for game.
+
+2. Gun Selection Scene / Gun Store
+We will use 4 to 5 guns. Each of it will have unique name and style. Also we will keep all guns locked but only 1 gun unlocked. All other Locked guns can be unlocked by the user by earning some coins/ paying a certain Price. User can earn cash by completing levels then he will be able to purchase guns from Gun Store.
+
+3. Mission Selection
+We will make 10 multiple missions of game. Here in this scene user will be able to choose his desired mission. Every button will show its mission statement. All missions will be locked except first mission. User will unlock them by playing previous Mission. For example Success in first mission will unlock second mission and so on.
+
+4. Game Play scene
+It will be the main scene. User will get his desired gun in this scene and desired mission will be turned on according to players preference in previous scenes.
+
+******************************************************************************************
+
 (Henry also needs to see two more files: licenses.txt and changelog.md)
