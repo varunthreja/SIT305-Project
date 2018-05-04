@@ -19,7 +19,7 @@ WEEK 5
 
 Week 6
 
-// [Sharjeel] found some free assets on unity’s site which we can use in our project.
+// [Sharjeel] found some free assets on unity's site which we can use in our project.
 					*****************************************************************
 // [Varun] and [Sharjeel] started working on the new project for week 6.
 // [Varun] and [Sharjeel] planned the design for the new Project 'Zombie Shooter'.
@@ -28,3 +28,9 @@ Week 7
 
 // [Varun] and [Sharjeel] completed our work on design.
 // [Varun] and [Sharjeel] started working on the features of the game like zombies and stages etc.
+
+Week 8
+
+//[Varun] did the testing of the three scenes created in week 7 and got positive results.
+//[Sharjeel] worked on creating other scenes of the game.
+//[Varun] and [Sharjeel] worked on some other major areas of the game and wrote a lot of other code for the game while doing pair programming in the university's library. 
