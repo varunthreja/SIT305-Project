@@ -1,4 +1,4 @@
-Item name: Image/Sound file name you have renamed it to, or method/function/class where the code is found.
+Item name: Image/Sound file: Asset Folder.
 
 License type: (Public Domain/ CC-BY/ CC0/ GPL/ MIT/ Apache/ BSD)
 
