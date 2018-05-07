@@ -33,4 +33,13 @@ Week 8
 
 //[Varun] did the testing of the three scenes created in week 7 and got positive results.
 //[Sharjeel] worked on creating other scenes of the game.
-//[Varun] and [Sharjeel] worked on some other major areas of the game and wrote a lot of other code for the game while doing pair programming in the university's library. 
+//[Varun] and [Sharjeel] worked on some other major areas of the game and wrote a lot of other code for the game while doing pair programming in the university's library.
+
+Week 9
+
+MONDAY
+------
+//[VARUN] and [Sharjeel] discussed further about the project requirements and came to an outcome that almost all of the stuff is done roughly and just needs some polishing.
+
+Tuesday
+------- 
