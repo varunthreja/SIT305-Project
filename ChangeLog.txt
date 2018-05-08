@@ -42,4 +42,6 @@ MONDAY
 //[VARUN] and [Sharjeel] discussed further about the project requirements and came to an outcome that almost all of the stuff is done roughly and just needs some polishing.
 
 Tuesday
-------- 
+-------
+//[Varun] No progress today.
+  
