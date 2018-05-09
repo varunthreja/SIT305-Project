@@ -44,4 +44,8 @@ MONDAY
 Tuesday
 -------
 //[Varun] No progress today.
+
+Wednesday
+---------
+//[Varun] worked on unit testing of the game as it was showing one bug again and again, will update the code on Github once finished partial testing.
   
