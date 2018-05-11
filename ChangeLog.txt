@@ -48,4 +48,10 @@ Tuesday
 Wednesday
 ---------
 //[Varun] worked on unit testing of the game as it was showing one bug again and again, will update the code on Github once finished partial testing.
+
+Thursday and Friday
+-------------------
+// [Varun] and [Sharjeel] No progress on our project code but yeah we are stressing enough on playability and we are playing game ourself to check if it meets the requirements or not?
+
+
   
