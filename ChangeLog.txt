@@ -53,5 +53,9 @@ Thursday and Friday
 -------------------
 // [Varun] and [Sharjeel] No progress on our project code but yeah we are stressing enough on playability and we are playing game ourself to check if it meets the requirements or not?
 
+Saturday
+--------
+//[Varun] Did some research on publishing the app on play store as i never did that before and i also learnt some new features of unity, so today i just spent most of the time on learning new stuff.
+
 
   
