@@ -61,4 +61,8 @@ Sunday
 ------
 //[Varun] No progress, due to other assignments...... :(
 
+Monday
+------
+//[Varun] and [Sharjeel] Created the 4th scene of the game which is game play, a little bit of polishing is still left but majority of the portion is completed.
+
   
