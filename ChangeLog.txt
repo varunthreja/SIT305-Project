@@ -65,4 +65,6 @@ Monday
 ------
 //[Varun] and [Sharjeel] Created the 4th scene of the game which is game play, a little bit of polishing is still left but majority of the portion is completed.
 
-  
+Tuesday And Wednsday
+------
+// [Varun] and [Sharjeel] still fixing some error amd stuff for the game play scene and its almost done and will be fixed by tomorrow. 
