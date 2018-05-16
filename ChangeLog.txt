@@ -68,3 +68,7 @@ Monday
 Tuesday And Wednsday
 ------
 // [Varun] and [Sharjeel] still fixing some error amd stuff for the game play scene and its almost done and will be fixed by tomorrow. 
+
+Wednesday
+------
+// [Varun] and [Sharjeel] we have fixed all the errors and finally our game is running. Just want to test it tomorrow for the last time and then we will submit it by tomorrow night. The only last change will might do is the background colour change. And then after that we will test it for the last time and then subkit it. Hopefully you will like it. 
