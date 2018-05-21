@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Kill Shooting.Plugins", "Zombie Kill Shooting.Plugins.csproj", "{5F28D303-CE93-B808-10ED-BDCD50E42BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Kill Shooting", "Zombie Kill Shooting.csproj", "{9B580720-D151-6529-2D49-E9DA009CED19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Kill Shooting.Editor.Plugins", "Zombie Kill Shooting.Editor.Plugins.csproj", "{BC9371B5-47A0-EC61-DCC8-FBC77065C2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Kill Shooting.Editor", "Zombie Kill Shooting.Editor.csproj", "{DB0C5928-C75C-0A05-FBE8-792DAEE3862F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F28D303-CE93-B808-10ED-BDCD50E42BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F28D303-CE93-B808-10ED-BDCD50E42BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F28D303-CE93-B808-10ED-BDCD50E42BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F28D303-CE93-B808-10ED-BDCD50E42BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B580720-D151-6529-2D49-E9DA009CED19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B580720-D151-6529-2D49-E9DA009CED19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B580720-D151-6529-2D49-E9DA009CED19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B580720-D151-6529-2D49-E9DA009CED19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9371B5-47A0-EC61-DCC8-FBC77065C2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9371B5-47A0-EC61-DCC8-FBC77065C2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9371B5-47A0-EC61-DCC8-FBC77065C2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9371B5-47A0-EC61-DCC8-FBC77065C2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0C5928-C75C-0A05-FBE8-792DAEE3862F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0C5928-C75C-0A05-FBE8-792DAEE3862F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0C5928-C75C-0A05-FBE8-792DAEE3862F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0C5928-C75C-0A05-FBE8-792DAEE3862F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

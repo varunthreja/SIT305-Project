@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jungle Commando Shooter 3D.Plugins", "Jungle Commando Shooter 3D.Plugins.csproj", "{F77405C4-7AE0-E91E-89F4-A9306473F920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jungle Commando Shooter 3D", "Jungle Commando Shooter 3D.csproj", "{1B11A670-BE2D-CBF9-E395-8D073C447E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jungle Commando Shooter 3D.Editor.Plugins", "Jungle Commando Shooter 3D.Editor.Plugins.csproj", "{08789B8E-AD49-0DF4-7B62-404668E8995B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jungle Commando Shooter 3D.Editor", "Jungle Commando Shooter 3D.Editor.csproj", "{3354A13F-A8B8-0ECC-7DF1-04E60C68FAEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F77405C4-7AE0-E91E-89F4-A9306473F920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77405C4-7AE0-E91E-89F4-A9306473F920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77405C4-7AE0-E91E-89F4-A9306473F920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77405C4-7AE0-E91E-89F4-A9306473F920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B11A670-BE2D-CBF9-E395-8D073C447E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B11A670-BE2D-CBF9-E395-8D073C447E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B11A670-BE2D-CBF9-E395-8D073C447E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B11A670-BE2D-CBF9-E395-8D073C447E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08789B8E-AD49-0DF4-7B62-404668E8995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08789B8E-AD49-0DF4-7B62-404668E8995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08789B8E-AD49-0DF4-7B62-404668E8995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08789B8E-AD49-0DF4-7B62-404668E8995B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3354A13F-A8B8-0ECC-7DF1-04E60C68FAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3354A13F-A8B8-0ECC-7DF1-04E60C68FAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3354A13F-A8B8-0ECC-7DF1-04E60C68FAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3354A13F-A8B8-0ECC-7DF1-04E60C68FAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

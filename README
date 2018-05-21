@@ -7,7 +7,7 @@ Title : Zombie War
 Game Genre : FPS (First Person) Shooting
 
 Game Overview / Main Story :
-Main theme of game is to kill zombies. Our town has been destroyed by zombies. They have entered in our city and infected very person. Most of inhabitants have turned to zombies. We are the only one survival and also the only person left alive of a special team of saviours of the town.
+Main theme of game is to kill zombies. Our town has been destroyed by zombies. They have entered in our city and infected every person. Most of inhabitants have turned to zombies. We are the only one survival and also the only person left alive of a special team of saviours of the town.
 We are using a FPS Player having multiple guns to kill zombies.
 We have to kill zombies by shooting. We will use health factor to show the health of the user. Zombies are divided in multiple levels and are on multiple locations with in the game.
 We are using mini map to locate zombies in environment. User will follow mini map to find zombies. 
@@ -31,6 +31,26 @@ We will make 10 multiple missions of game. Here in this scene user will be able 
 4. Game Play scene
 It will be the main scene. User will get his desired gun in this scene and desired mission will be turned on according to players preference in previous scenes.
 
-******************************************************************************************
+Some Major features of the app
 
-(Henry also needs to see two more files: licenses.txt and changelog.md)
+1. SO the game is basically about shooting Zombies in which we have to shoot zombies and protect ourself from them its just like the traditional house of dead game.
+
+2. A lot of physics concepts are involved in the game.
+
+3. There are total 10 levels in the game and difficulty level increases with every level progressed.
+
+4. Initially one gun will be given to the player.
+
+5. Guns can be unlocked and purchased by earning cash with in the game. 
+
+6. The player can walk, jump, shoot and move in any direction and do all other basic things.
+
+7. Whenever a zombie shoots the player, the player life/power is reduced and for the recovery of the power loss we have kept power boosters at different location with in the game.
+
+8. A complete background is created and a lot of sounds and music are added to further enhance the user experience.
+
+
+      				***********************************
+Link to Github:-
+
+https://github.com/varunthreja/SIT305-Project

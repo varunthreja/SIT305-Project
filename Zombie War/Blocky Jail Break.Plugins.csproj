@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DCAB7AE-C6F7-109D-D154-831F71E8143E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF2_INSTALLED;CF_FORCE_MOBILE_MODE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF2_INSTALLED;CF_FORCE_MOBILE_MODE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity 5.5.1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\AdmobAPI\AdPosition.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\AdSize.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\Admob.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\AdmobEvent.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\AdmobGender.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\AdmobListenerProxy.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\IAdmobListener.cs" />
+    <Compile Include="Assets\Plugins\AdmobAPI\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Debug\Scripts\AxisDebugger.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Debug\Scripts\GamepadHardwareTester.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\DualStickShooterCharaAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\DualStickShooterCharaMotor.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\Gun.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\GunActivator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Dual-Stick-Shooter\Scripts\SimpleFollowCam.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-JRPG\Scripts\CharacterAction.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-JRPG\Scripts\InteractiveObjectBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-JRPG\Scripts\LevelData.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-JRPG\Scripts\SimpleInteractiveObject.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Swipe-Slasher\Scripts\SwipeSlasherChara.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Demo-Swipe-Slasher\Scripts\SwipeSlasherUserControl.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Helpers\AudioIgnoreListenerPauseAndVolume.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Helpers\SplitScreenCamAddOn.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Modes\DemoMainState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Modes\HelpBoxState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Modes\MultiDemoManager.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\AxisBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\DigitalBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\DirectionBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\EmuTouchBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\JoystickStateBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\MousePositionBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\RigAxisNameDrawer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\RigFlagNameDrawer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\RigJoystickNameDrawer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\ScrollDeltaBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\TouchGestureStateBindingInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InspectorUtils\InputBindingInspectors.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InspectorUtils\InspectorUtils.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InspectorUtils\ListInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\Internal\SpriteConfigInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\Internal\TouchControlSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\SuperTouchZoneSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\TouchButtonSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\TouchJoystickSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\TouchSteeringWheelSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\AnimatorInspectors\TouchTrackPadSpriteAnimatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\DynamicRegionInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\GamepadManagerInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\InputRigInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\DisablingConditionSetInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\JoystickConfigInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\ObjectListInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\TouchControlInspectorBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\TouchGestureConfigInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\Internal\TouchGestureThresholdsInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\SuperTouchZoneInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchButtonInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchControlPanelInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchControlPanelUnityUiAddOnInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchJoystickInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchSplitterInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchSteeringWheelInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchTrackPadInspector.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\Assistant.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\ConfigManager.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\InputRigSpriteOptimizer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\Installer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\TouchControlTools.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Tools\UnityInputManagerToRigDialog.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\CFEditorStyles.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\CFEditorUtils.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\CFGUI.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\CFProjPrefs.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\TouchControlWizardUtils.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\TreeView.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\UnityInputManagerUtils.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Utils\WizardMenuUtils.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\ControlCreationWizardBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\SuperTouchZoneWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\TouchButtonCreationWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\TouchJoystickCreationWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\TouchSplitterWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\TouchTrackPadCreationWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\TouchWheelCreationWizard.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadManager.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadNotifier\GamepadNotifier.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadNotifier\NotificationElementGUI.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadProfile.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadProfileBank.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBank.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankAndroid.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankIOS.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankLinux.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankOSX.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankWP8.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankWebGL.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankWin.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\CustomGamepadProfileBank.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\InputModules\GamepadInputModule.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\AnalogConfig.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\AnimTimer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\ComponentBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\Dir.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\DirectionState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\DisablingConditionSet.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\FixedTimeStepController.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\GameState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\AxisBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\DigitalBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\DirectionBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\EmuTouchBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\IBindingContainer.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\InputBindingBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\JoystickStateBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\MousePositionBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\ScrollDeltaBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\TouchGestureStateBinding.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\JoystickConfig.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\JoystickState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\ObjectPoolBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\TiltState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\TouchGestureConfig.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\TouchGestureState.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\TouchGestureThresholds.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\System\CF2Input.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\System\CFCursor.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\System\CFScreen.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\System\InputRig.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\Internal\ISpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\Internal\SpriteConfig.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\Internal\TouchControlAnimatorBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\Internal\TouchControlSpriteAnimatorBase.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\SuperTouchZoneSpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\TouchButtonSpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\TouchJoystickSpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\TouchSteeringWheelSpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\Animators\TouchTrackPadSpriteAnimator.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\DynamicRegion.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\DynamicTouchControl.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\InitialPosPlaceholder.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\SuperTouchZone.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchButton.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchControl.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchControlPanel.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchControlPanelUnityUiAddOn.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchJoystick.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchMarkerGUI.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchObject.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchSplitter.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchSteeringWheel.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchTrackPad.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\AutoContentFitter.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\AutoPreferredSize.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\IgnoreGraphicRaycasts.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\LeftRightMenu.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Utils\CFGizmos.cs" />
+    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Utils\CFUtils.cs" />
+    <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Standard Assets\UnityTerrainBump\CustomTerrainScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Fonts\FH-RedFive WTT\license.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-HardLight.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-SoftLight.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\Billboard.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\NewShader.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\aaa.compute" />
+    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FX-Water Simple With Alpha.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FXWaterBasicWithAlpha.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\RFPSP\Shaders\DecalShader.shader" />
+    <None Include="Assets\RFPSP\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\RFPSP\Shaders\WaterShader.shader" />
+    <None Include="Assets\Top-Down Dungeons Mobile\Scripts\MobileBloom.shader" />
+    <None Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Documentation\ReadMe.txt" />
+    <None Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

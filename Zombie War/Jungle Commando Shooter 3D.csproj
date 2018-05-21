@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B11A670-BE2D-CBF9-E395-8D073C447E24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF2_INSTALLED;CF_FORCE_MOBILE_MODE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF2_INSTALLED;CF_FORCE_MOBILE_MODE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Assets\UnityAds\UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Jungle Commando Shooter 3D.Plugins.csproj">
+      <Project>{F77405C4-7AE0-E91E-89F4-A9306473F920}</Project>
+      <Name>Jungle Commando Shooter 3D.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AdManager.cs" />
+    <Compile Include="Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs" />
+    <Compile Include="Assets\Chartboost\Scripts\CBExternal.cs" />
+    <Compile Include="Assets\Chartboost\Scripts\CBInPlay.cs" />
+    <Compile Include="Assets\Chartboost\Scripts\CBJSON.cs" />
+    <Compile Include="Assets\Chartboost\Scripts\CBSettings.cs" />
+    <Compile Include="Assets\Chartboost\Scripts\Chartboost.cs" />
+    <Compile Include="Assets\Others\GamePlay.cs" />
+    <Compile Include="Assets\Others\LevelSelection.cs" />
+    <Compile Include="Assets\Others\MainMenuN.cs" />
+    <Compile Include="Assets\Others\Splash.cs" />
+    <Compile Include="Assets\RFPSP\Demo\Other\Water\Scripts\WaterSimple.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\AI.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\CharacterDamage.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\LocationDamage.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\MonsterItemTrap.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\MonsterTrigger.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\MoveTrigger.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\NPCAttack.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\NPCRegistry.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\NPCSpawner.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\RemoveBody.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\WaveManager.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\AI\WaypointGroup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\CameraControl.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\DragRigidbody.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\HorizontalBob.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\MovePlayerAndCamera.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\PlayAudioAtPos.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\SmoothMouseLook.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\TempAudioTimer.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Camera\VerticalBob.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Effects\FadeOutDecals.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Effects\LevelLoadFade.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Effects\PainFade.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Effects\WeaponEffects.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\AmmoText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\HealthText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\HelpText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\HungerText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\MainMenu.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\ThirstText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\WarmupText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\HUD\WaveText.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\AmmoPickup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\AppleFall.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\DrinkPickup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\FoodPickup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\HealthPickup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\WeaponPickup.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Items\WeaponSpawn.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Climbing\EdgeClimbTrigger.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Climbing\EdgeClimbTriggerActivate.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Climbing\Ladder.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Destructibles\BreakableObject.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Destructibles\ExplosiveObject.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Destructibles\MineExplosion.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Platforms\ElevatorCrushCollider.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Platforms\MovingElevator.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\!Platforms\MovingPlatform.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\AzuObjectPool.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\DamageZone.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\FenceRustle.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\FoliageRustle.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\InstantDeathCollider.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\WaterZone.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Objects\WorldRecenter.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\FPSPlayer.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\FPSRigidBodyWalker.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\Footsteps.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\InputControl.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\LeanColliderDamage.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\ReconfigurePrefab.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Player\VisibleBody.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\ArrowObject.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\GrenadeObject.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\GunSway.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\Ironsights.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\PlayerWeapons.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\ShellEjection.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\WeaponBehavior.cs" />
+    <Compile Include="Assets\RFPSP\Scripts\Weapons\WeaponPivot.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\Misc\bl_MaskHelper.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\bl_IconItem.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\bl_MMCompass.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\bl_MiniMap.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\bl_MiniMapItem.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Core\bl_WorldSpace.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Internal\Atributte\InspectorButtonAttribute.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Internal\Atributte\SeparatorAttribute.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Internal\Enum\MMItemEffect.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Internal\Struct\bl_MMItemInfo.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Util\bl_MiniMapUtils.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Scripts\Util\bl_SnapShot.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Scripts\bl_CreateItemExample.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Scripts\bl_MMExampleManager.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Scripts\bl_RandomBot.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\bl_FirstPersonController.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\bl_MouseLook.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Utility\bl_CurveControlledBob.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Utility\bl_FOVKick.cs" />
+    <Compile Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Utility\bl_LerpControlledBob.cs" />
+    <Compile Include="Assets\admobdemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Fonts\FH-RedFive WTT\license.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-HardLight.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-SoftLight.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\Billboard.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\NewShader.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\aaa.compute" />
+    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FX-Water Simple With Alpha.shader" />
+    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FXWaterBasicWithAlpha.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\RFPSP\Shaders\DecalShader.shader" />
+    <None Include="Assets\RFPSP\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\RFPSP\Shaders\WaterShader.shader" />
+    <None Include="Assets\UGUIMiniMap\UGUIMiniMap\Content\Documentation\ReadMe.txt" />
+    <None Include="Assets\UGUIMiniMap\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

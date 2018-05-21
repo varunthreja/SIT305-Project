@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e90f3f279107efa4cb4ebba3677b06de
+timeCreated: 1499929552
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rock Salt
+  fontNames:
+  - Rock Salt
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

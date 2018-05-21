@@ -27,6 +27,7 @@ Week 6
 Week 7
 
 // [Varun] and [Sharjeel] completed our work on design.
+<<<<<<< Updated upstream
 // [Varun] and [Sharjeel] started working on the features of the game like zombies and stages etc.
 
 Week 8
@@ -72,3 +73,52 @@ Tuesday And Wednsday
 Wednesday
 ------
 // [Varun] and [Sharjeel] we have fixed all the errors and finally our game is running. Just want to test it tomorrow for the last time and then we will submit it by tomorrow night. The only last change will might do is the background colour change. And then after that we will test it for the last time and then subkit it. Hopefully you will like it. 
+=======
+// [Varun] and [Sharjeel] started working on the features of the game like zombies and stages etc.
+
+Week 8
+
+//[Varun] did the testing of the three scenes created in week 7 and got positive results.
+//[Sharjeel] worked on creating other scenes of the game.
+//[Varun] and [Sharjeel] worked on some other major areas of the game and wrote a lot of other code for the game while doing pair programming in the university's library.
+
+Week 9
+
+MONDAY
+------
+//[VARUN] and [Sharjeel] discussed further about the project requirements and came to an outcome that almost all of the stuff is done roughly and just needs some polishing.
+
+Tuesday
+-------
+//[Varun] No progress today.
+
+Wednesday
+---------
+//[Varun] worked on unit testing of the game as it was showing one bug again and again, will update the code on Github once finished partial testing.
+
+Thursday and Friday
+-------------------
+// [Varun] and [Sharjeel] No progress on our project code but yeah we are stressing enough on playability and we are playing game ourself to check if it meets the requirements or not?
+
+Saturday
+--------
+//[Varun] Did some research on publishing the app on play store as i never did that before and i also learnt some new features of unity, so today i just spent most of the time on learning new stuff.
+
+Sunday
+------
+//[Varun] No progress, due to other assignments...... :(
+
+Monday
+------
+//[Varun] and [Sharjeel] Created the 4th scene of the game which is game play, a little bit of polishing is still left but majority of the portion is completed.
+
+Thursday
+--------
+//[Varun] and [Sharjeel] Project finished and we are just playing it again and again on the phone by creating an APK of it via Unity to ensure that we meet the playability  criteria and we think that our game is engaging to play more than 10 hours.
+ 
+
+
+
+
+  
+>>>>>>> Stashed changes

@@ -1,13 +1,29 @@
+Very Important Note: - 
+PLEASE BUILD AND RUN THE GAME ON UNITY VERSION 5.5.1 AS WE BUILD THE GAME ON THIS VERSIONS IF YOU TRIED IT ON ANY OTHER VERSIONS THEN IT MAY CREATE PROBLEMS AND NO ASSETS WILL BE SHOWN, SOMETIMES IT WORKS BUT STILL DON'T TAKE ANY RISK. THIS IS THE PROBLEM WHICH WE FACED WHILE BUILDING THE PROJECT AND LOTS OF OTHER USERS ALSO FACED THIS PROBLEM.
+AS UNITY AUTOMATICALLY CREATES AND DELETES CERTAIN FILES ACCORDING TO THE REQUIREMENT OF THE UNITY VERSION.
+
 For PC/Window/stand-alone device
+
 1. Open project in unity editor. 
+
 2. Hit play button on the top bar. 
+
 3. Start playing game. 
+
 For Android/ play in Android phone. 
+
 1.Open project in unity editor. 
+
 2. Switch platform to android in build settings. 
-File->buld setting (click on Android and hit switch platform). 
+
+File->build setting (click on Android and hit switch platform). 
+
 3. Create a build.
+
 File->Build setting->Build 
+
 This will create APK. 
-4. Transfer apk to your Android phone and install it. 
+
+4. Transfer APK to your Android phone and install it.
+ 
 5. Open/Play app.
